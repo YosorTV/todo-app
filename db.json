@@ -1,0 +1,138 @@
+{
+  "lists": [
+    {
+      "id": 1,
+      "name": "Home",
+      "colorId": 1
+    },
+    {
+      "id": 2,
+      "name": "Frontend",
+      "colorId": 2
+    },
+    {
+      "id": 3,
+      "name": "Movies",
+      "colorId": 3
+    },
+    {
+      "id": 4,
+      "name": "TV Shows",
+      "colorId": 4
+    },
+    {
+      "id": 5,
+      "name": "Books",
+      "colorId": 5
+    },
+    {
+      "id": 6,
+      "name": "Personal",
+      "colorId": 6
+    }
+  ],
+  "tasks": [
+    {
+      "listId": 2,
+      "text": "Create: Todo-List-App",
+      "completed": true,
+      "id": 1
+    },
+    {
+      "listId": 2,
+      "text": "Create: Contact-List-App",
+      "completed": true,
+      "id": 2
+    },
+    {
+      "listId": 2,
+      "text": "Create: Movie-Finder-App",
+      "completed": false,
+      "id": 3
+    },
+    {
+      "listId": 3,
+      "text": "1917",
+      "completed": true,
+      "id": 1
+    },
+    {
+      "listId": 3,
+      "text": "Project Power",
+      "completed": true,
+      "id": 2
+    },
+    {
+      "listId": 4,
+      "text": "Power",
+      "completed": false,
+      "id": 1
+    },
+    {
+      "listId": 4,
+      "text": "Witcher",
+      "completed": true,
+      "id": 2
+    },
+    {
+      "listId": 4,
+      "text": "Mandolorian",
+      "completed": true,
+      "id": 3
+    },
+    {
+      "listId": 4,
+      "text": "Stranger Things",
+      "completed": true,
+      "id": 4
+    },
+    {
+      "listId": 4,
+      "text": "The Boys",
+      "completed": true,
+      "id": 5
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "hex": "#C9D1D3",
+      "name": "grey"
+    },
+    {
+      "id": 2,
+      "hex": "#42B883",
+      "name": "green"
+    },
+    {
+      "id": 3,
+      "hex": "#64C4ED",
+      "name": "blue"
+    },
+    {
+      "id": 4,
+      "hex": "#FFBBCC",
+      "name": "pink"
+    },
+    {
+      "id": 5,
+      "hex": "#B6E6BD",
+      "name": "lime"
+    },
+    {
+      "id": 6,
+      "hex": "#C355F5",
+      "name": "purple"
+    },
+    {
+      "id": 7,
+      "hex": "#110133",
+      "name": "black"
+    },
+    {
+      "id": 8,
+      "hex": "#FF6464",
+      "name": "red"
+    }
+  ]
+}

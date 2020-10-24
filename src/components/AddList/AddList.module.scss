@@ -1,0 +1,82 @@
+.AddList {
+
+  .addButton {
+    transition: all .2s ease-in-out;
+    opacity: 0.4;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .AddListPopup {
+    width: 250px;
+    height: 150px;
+    background: #e2e6f1;
+    color: #000;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -20px;
+    .closePopup{
+      position: absolute;
+      cursor: pointer;
+      top: -12px;
+      right: -12px;
+      border-radius: 50%;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    .field {
+      background: #fff;
+      border: 1px solid transparent;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+      box-sizing: border-box;
+      border-radius: 4px;
+      padding: 8px 12px;
+      width: 100%;
+      box-sizing: border-box;
+      transition: .1s all ease-in;
+
+      &:focus {
+        border-color: #868e9c;
+      }
+    }
+
+    .addListPopupColors {
+      margin-top: auto;
+      display: flex;
+      justify-content: space-between;
+
+      i {
+        height: 18px;
+        width: 18px;
+        border:2px solid transparent;
+      }
+    }
+  }
+}
+
+.button {
+  border-radius: 4px;
+  width: 100%;
+  border: 0;
+  outline: none;
+  padding: 10px 20px;
+  background: #73b588;
+  color: #fff;
+  margin-top: auto;
+  transition: .1s all ease-in;
+  cursor: pointer;
+
+  &:hover {
+    background: darken(#73b588, 12%);
+  }
+
+  &:active {
+    background: darken(#73b588, 22%);
+  }
+}
