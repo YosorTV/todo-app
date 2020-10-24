@@ -22,13 +22,8 @@
     },
     {
       "id": 5,
-      "name": "Books",
-      "colorId": 5
-    },
-    {
-      "id": 6,
       "name": "Personal",
-      "colorId": 6
+      "colorId": 5
     }
   ],
   "tasks": [

@@ -64,8 +64,8 @@ const AddList = ({colors, onAdd}) => {
     setIsLoading(true);
     TodoService.post('/lists', { name:inputValue, colorId: selectedColor })
     .then(({data}) => {
-      const color = colors.filter(c => c.id === selectedColor)[0].name;
-      const listObj = {...data, color: {name: color}, tasks:[]};
+      const color = colors.filter(c => c.id === selectedColor)[0];
+      const listObj = {...data, color, tasks:[]};
         onAdd(listObj);
         onClose();
     }).finally(() => setIsLoading(false));

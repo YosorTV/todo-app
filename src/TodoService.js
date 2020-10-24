@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: "https://my-json-server.typicode.com/YosorTV/todo-react"
+  baseURL: "https://my-json-server.typicode.com/YosorTV/todo-app"
 })
